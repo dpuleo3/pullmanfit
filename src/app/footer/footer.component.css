@@ -1,0 +1,25 @@
+#footer_wrapper {
+    height: 20px;
+
+}
+
+.card-title, .card-text {
+    color: white;
+    
+}
+
+.card-text {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#footer_button {
+    background-color: red;
+    border-color: red;
+}
+
+#footer_footer {
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,55 @@
+nav {
+    background-color: rgba(255, 0, 0, 0.515);
+
+    z-index: 3;
+
+    position: absolute;
+}
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand img {
+    height: 80%;
+    width: 50px;
+}
+
+.nav-item a {
+    color: white;
+    font-size: large;
+    padding-left: 25px;
+}
+
+ul {
+    background-color: rgba(180, 11, 11, 0.59);
+    
+    position: fixed;
+    width: 100%;
+    margin-top: 42px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------------------"LINKS"------------------------- */
+  
+  /* Mouse sobre el link */
+ul a:hover {
+    color: crimson;
+}
+  
+  /* Al darle click */
+ul a:active {
+    color: orangered;
+}
+  
+  /* Links visitados */
+ul a:visited {
+    color: white;
+}

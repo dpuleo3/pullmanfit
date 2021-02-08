@@ -1,0 +1,58 @@
+.header_wrapper {
+    background-color: rgba(180, 11, 11, 0.59);
+    height: 100vh;
+    width: 100%;
+
+    position: relative;
+    
+} 
+
+.header_title img {
+    z-index: 2;
+
+    height: 165px;
+    width: 450px;
+
+    position: absolute;
+    right: 6%;
+    top: 16%;
+}
+
+.header_image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+    z-index: -1;
+
+    background-image: url(../../assets/images/humanflag.png);
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.card {
+    background-color: rgba(255, 0, 0, 0);
+    border-color: rgba(255, 0, 0, 0);;
+
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    right: 8%;
+    top: 34%;
+}
+
+.card-title {
+    color: white    ;
+}
+
+.card-text {
+    margin-top: 20px;
+}
+
+#header_button {
+    margin-top: 20px;
+}
